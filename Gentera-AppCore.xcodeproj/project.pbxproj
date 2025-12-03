@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B0BE1A542EE0EB1500BED0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BE1A322EE0EB1300BED0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BE1A392EE0EB1300BED0D8;
+			remoteInfo = "Gentera-AppCore";
+		};
+		B0BE1A5E2EE0EB1500BED0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BE1A322EE0EB1300BED0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BE1A392EE0EB1300BED0D8;
+			remoteInfo = "Gentera-AppCore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0BE1A3A2EE0EB1300BED0D8 /* Gentera-AppCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gentera-AppCore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE1A532EE0EB1500BED0D8 /* Gentera-AppCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gentera-AppCoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE1A5D2EE0EB1500BED0D8 /* Gentera-AppCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gentera-AppCoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B0BE1A652EE0EB1500BED0D8 /* Exceptions for "Gentera-AppCore" folder in "Gentera-AppCore" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B0BE1A392EE0EB1300BED0D8 /* Gentera-AppCore */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B0BE1A3C2EE0EB1300BED0D8 /* Gentera-AppCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B0BE1A652EE0EB1500BED0D8 /* Exceptions for "Gentera-AppCore" folder in "Gentera-AppCore" target */,
+			);
+			path = "Gentera-AppCore";
+			sourceTree = "<group>";
+		};
+		B0BE1A562EE0EB1500BED0D8 /* Gentera-AppCoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gentera-AppCoreTests";
+			sourceTree = "<group>";
+		};
+		B0BE1A602EE0EB1500BED0D8 /* Gentera-AppCoreUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Gentera-AppCoreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BE1A372EE0EB1300BED0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE1A502EE0EB1500BED0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE1A5A2EE0EB1500BED0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0BE1A312EE0EB1300BED0D8 = {
+			isa = PBXGroup;
+			children = (
+				B0BE1A3C2EE0EB1300BED0D8 /* Gentera-AppCore */,
+				B0BE1A562EE0EB1500BED0D8 /* Gentera-AppCoreTests */,
+				B0BE1A602EE0EB1500BED0D8 /* Gentera-AppCoreUITests */,
+				B0BE1A3B2EE0EB1300BED0D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BE1A3B2EE0EB1300BED0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE1A3A2EE0EB1300BED0D8 /* Gentera-AppCore.app */,
+				B0BE1A532EE0EB1500BED0D8 /* Gentera-AppCoreTests.xctest */,
+				B0BE1A5D2EE0EB1500BED0D8 /* Gentera-AppCoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0BE1A392EE0EB1300BED0D8 /* Gentera-AppCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE1A662EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCore" */;
+			buildPhases = (
+				B0BE1A362EE0EB1300BED0D8 /* Sources */,
+				B0BE1A372EE0EB1300BED0D8 /* Frameworks */,
+				B0BE1A382EE0EB1300BED0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B0BE1A3C2EE0EB1300BED0D8 /* Gentera-AppCore */,
+			);
+			name = "Gentera-AppCore";
+			packageProductDependencies = (
+			);
+			productName = "Gentera-AppCore";
+			productReference = B0BE1A3A2EE0EB1300BED0D8 /* Gentera-AppCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0BE1A522EE0EB1500BED0D8 /* Gentera-AppCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE1A6B2EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCoreTests" */;
+			buildPhases = (
+				B0BE1A4F2EE0EB1500BED0D8 /* Sources */,
+				B0BE1A502EE0EB1500BED0D8 /* Frameworks */,
+				B0BE1A512EE0EB1500BED0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BE1A552EE0EB1500BED0D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0BE1A562EE0EB1500BED0D8 /* Gentera-AppCoreTests */,
+			);
+			name = "Gentera-AppCoreTests";
+			packageProductDependencies = (
+			);
+			productName = "Gentera-AppCoreTests";
+			productReference = B0BE1A532EE0EB1500BED0D8 /* Gentera-AppCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0BE1A5C2EE0EB1500BED0D8 /* Gentera-AppCoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BE1A6E2EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCoreUITests" */;
+			buildPhases = (
+				B0BE1A592EE0EB1500BED0D8 /* Sources */,
+				B0BE1A5A2EE0EB1500BED0D8 /* Frameworks */,
+				B0BE1A5B2EE0EB1500BED0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BE1A5F2EE0EB1500BED0D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B0BE1A602EE0EB1500BED0D8 /* Gentera-AppCoreUITests */,
+			);
+			name = "Gentera-AppCoreUITests";
+			packageProductDependencies = (
+			);
+			productName = "Gentera-AppCoreUITests";
+			productReference = B0BE1A5D2EE0EB1500BED0D8 /* Gentera-AppCoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0BE1A322EE0EB1300BED0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					B0BE1A392EE0EB1300BED0D8 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					B0BE1A522EE0EB1500BED0D8 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = B0BE1A392EE0EB1300BED0D8;
+					};
+					B0BE1A5C2EE0EB1500BED0D8 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = B0BE1A392EE0EB1300BED0D8;
+					};
+				};
+			};
+			buildConfigurationList = B0BE1A352EE0EB1300BED0D8 /* Build configuration list for PBXProject "Gentera-AppCore" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0BE1A312EE0EB1300BED0D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B0BE1A3B2EE0EB1300BED0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0BE1A392EE0EB1300BED0D8 /* Gentera-AppCore */,
+				B0BE1A522EE0EB1500BED0D8 /* Gentera-AppCoreTests */,
+				B0BE1A5C2EE0EB1500BED0D8 /* Gentera-AppCoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0BE1A382EE0EB1300BED0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE1A512EE0EB1500BED0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE1A5B2EE0EB1500BED0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0BE1A362EE0EB1300BED0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE1A4F2EE0EB1500BED0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BE1A592EE0EB1500BED0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0BE1A552EE0EB1500BED0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BE1A392EE0EB1300BED0D8 /* Gentera-AppCore */;
+			targetProxy = B0BE1A542EE0EB1500BED0D8 /* PBXContainerItemProxy */;
+		};
+		B0BE1A5F2EE0EB1500BED0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BE1A392EE0EB1300BED0D8 /* Gentera-AppCore */;
+			targetProxy = B0BE1A5E2EE0EB1500BED0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0BE1A672EE0EB1500BED0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gentera-AppCore/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0BE1A682EE0EB1500BED0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gentera-AppCore/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0BE1A692EE0EB1500BED0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0BE1A6A2EE0EB1500BED0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BE1A6C2EE0EB1500BED0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gentera-AppCore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gentera-AppCore";
+			};
+			name = Debug;
+		};
+		B0BE1A6D2EE0EB1500BED0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gentera-AppCore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gentera-AppCore";
+			};
+			name = Release;
+		};
+		B0BE1A6F2EE0EB1500BED0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gentera-AppCore";
+			};
+			name = Debug;
+		};
+		B0BE1A702EE0EB1500BED0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gentera-AppCore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0BE1A352EE0EB1300BED0D8 /* Build configuration list for PBXProject "Gentera-AppCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE1A692EE0EB1500BED0D8 /* Debug */,
+				B0BE1A6A2EE0EB1500BED0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE1A662EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE1A672EE0EB1500BED0D8 /* Debug */,
+				B0BE1A682EE0EB1500BED0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE1A6B2EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE1A6C2EE0EB1500BED0D8 /* Debug */,
+				B0BE1A6D2EE0EB1500BED0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BE1A6E2EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BE1A6F2EE0EB1500BED0D8 /* Debug */,
+				B0BE1A702EE0EB1500BED0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BE1A322EE0EB1300BED0D8 /* Project object */;
+}
