@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		227211F894595A635C92E9A3 /* Pods_Gentera_AppCore_Gentera_AppCoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978C89127F0FA299932B2BA /* Pods_Gentera_AppCore_Gentera_AppCoreUITests.framework */; };
+		7EC91198CF0E61B51D6A163B /* Pods_Gentera_AppCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF14476149654AD76DD743 /* Pods_Gentera_AppCoreTests.framework */; };
+		FFDA1C26AEFB91C879832F8F /* Pods_Gentera_AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229983CECE11A245460676BA /* Pods_Gentera_AppCore.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B0BE1A542EE0EB1500BED0D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13AF14476149654AD76DD743 /* Pods_Gentera_AppCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gentera_AppCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229983CECE11A245460676BA /* Pods_Gentera_AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gentera_AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231C5B054F82D4A2ACA33E50 /* Pods-Gentera-AppCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gentera-AppCoreTests.debug.xcconfig"; path = "Target Support Files/Pods-Gentera-AppCoreTests/Pods-Gentera-AppCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		708588C5767923EAF54CE4C9 /* Pods-Gentera-AppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gentera-AppCore.release.xcconfig"; path = "Target Support Files/Pods-Gentera-AppCore/Pods-Gentera-AppCore.release.xcconfig"; sourceTree = "<group>"; };
+		A5586B11A587037BF9126757 /* Pods-Gentera-AppCore-Gentera-AppCoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gentera-AppCore-Gentera-AppCoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gentera-AppCore-Gentera-AppCoreUITests/Pods-Gentera-AppCore-Gentera-AppCoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0BE1A3A2EE0EB1300BED0D8 /* Gentera-AppCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gentera-AppCore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE1A532EE0EB1500BED0D8 /* Gentera-AppCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gentera-AppCoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE1A5D2EE0EB1500BED0D8 /* Gentera-AppCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gentera-AppCoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14DC2B3B8F52602869EA8B9 /* Pods-Gentera-AppCore-Gentera-AppCoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gentera-AppCore-Gentera-AppCoreUITests.release.xcconfig"; path = "Target Support Files/Pods-Gentera-AppCore-Gentera-AppCoreUITests/Pods-Gentera-AppCore-Gentera-AppCoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE57D4773E672036B8F21A30 /* Pods-Gentera-AppCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gentera-AppCoreTests.release.xcconfig"; path = "Target Support Files/Pods-Gentera-AppCoreTests/Pods-Gentera-AppCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		D978C89127F0FA299932B2BA /* Pods_Gentera_AppCore_Gentera_AppCoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gentera_AppCore_Gentera_AppCoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F080C5AAD23F85EC25707224 /* Pods-Gentera-AppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gentera-AppCore.debug.xcconfig"; path = "Target Support Files/Pods-Gentera-AppCore/Pods-Gentera-AppCore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDA1C26AEFB91C879832F8F /* Pods_Gentera_AppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC91198CF0E61B51D6A163B /* Pods_Gentera_AppCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227211F894595A635C92E9A3 /* Pods_Gentera_AppCore_Gentera_AppCoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022C7DED45689AF61CC624B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F080C5AAD23F85EC25707224 /* Pods-Gentera-AppCore.debug.xcconfig */,
+				708588C5767923EAF54CE4C9 /* Pods-Gentera-AppCore.release.xcconfig */,
+				A5586B11A587037BF9126757 /* Pods-Gentera-AppCore-Gentera-AppCoreUITests.debug.xcconfig */,
+				B14DC2B3B8F52602869EA8B9 /* Pods-Gentera-AppCore-Gentera-AppCoreUITests.release.xcconfig */,
+				231C5B054F82D4A2ACA33E50 /* Pods-Gentera-AppCoreTests.debug.xcconfig */,
+				BE57D4773E672036B8F21A30 /* Pods-Gentera-AppCoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61E0018048B2943331A60CE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229983CECE11A245460676BA /* Pods_Gentera_AppCore.framework */,
+				D978C89127F0FA299932B2BA /* Pods_Gentera_AppCore_Gentera_AppCoreUITests.framework */,
+				13AF14476149654AD76DD743 /* Pods_Gentera_AppCoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0BE1A312EE0EB1300BED0D8 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				B0BE1A562EE0EB1500BED0D8 /* Gentera-AppCoreTests */,
 				B0BE1A602EE0EB1500BED0D8 /* Gentera-AppCoreUITests */,
 				B0BE1A3B2EE0EB1300BED0D8 /* Products */,
+				022C7DED45689AF61CC624B3 /* Pods */,
+				61E0018048B2943331A60CE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0BE1A662EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCore" */;
 			buildPhases = (
+				4419AA4A6B7D5770F30F2E38 /* [CP] Check Pods Manifest.lock */,
 				B0BE1A362EE0EB1300BED0D8 /* Sources */,
 				B0BE1A372EE0EB1300BED0D8 /* Frameworks */,
 				B0BE1A382EE0EB1300BED0D8 /* Resources */,
+				877C60A515C4C716B86B09B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				B0BE1A3C2EE0EB1300BED0D8 /* Gentera-AppCore */,
 			);
 			name = "Gentera-AppCore";
-			packageProductDependencies = (
-			);
 			productName = "Gentera-AppCore";
 			productReference = B0BE1A3A2EE0EB1300BED0D8 /* Gentera-AppCore.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0BE1A6B2EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCoreTests" */;
 			buildPhases = (
+				D00A3F4352A559CCA03264E3 /* [CP] Check Pods Manifest.lock */,
 				B0BE1A4F2EE0EB1500BED0D8 /* Sources */,
 				B0BE1A502EE0EB1500BED0D8 /* Frameworks */,
 				B0BE1A512EE0EB1500BED0D8 /* Resources */,
@@ -147,8 +191,6 @@
 				B0BE1A562EE0EB1500BED0D8 /* Gentera-AppCoreTests */,
 			);
 			name = "Gentera-AppCoreTests";
-			packageProductDependencies = (
-			);
 			productName = "Gentera-AppCoreTests";
 			productReference = B0BE1A532EE0EB1500BED0D8 /* Gentera-AppCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0BE1A6E2EE0EB1500BED0D8 /* Build configuration list for PBXNativeTarget "Gentera-AppCoreUITests" */;
 			buildPhases = (
+				59F1F378FD2A75AED303A6EB /* [CP] Check Pods Manifest.lock */,
 				B0BE1A592EE0EB1500BED0D8 /* Sources */,
 				B0BE1A5A2EE0EB1500BED0D8 /* Frameworks */,
 				B0BE1A5B2EE0EB1500BED0D8 /* Resources */,
+				04975A9316F741187D34BCA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				B0BE1A602EE0EB1500BED0D8 /* Gentera-AppCoreUITests */,
 			);
 			name = "Gentera-AppCoreUITests";
-			packageProductDependencies = (
-			);
 			productName = "Gentera-AppCoreUITests";
 			productReference = B0BE1A5D2EE0EB1500BED0D8 /* Gentera-AppCoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04975A9316F741187D34BCA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gentera-AppCore-Gentera-AppCoreUITests/Pods-Gentera-AppCore-Gentera-AppCoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gentera-AppCore-Gentera-AppCoreUITests/Pods-Gentera-AppCore-Gentera-AppCoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gentera-AppCore-Gentera-AppCoreUITests/Pods-Gentera-AppCore-Gentera-AppCoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4419AA4A6B7D5770F30F2E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gentera-AppCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F1F378FD2A75AED303A6EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gentera-AppCore-Gentera-AppCoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		877C60A515C4C716B86B09B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gentera-AppCore/Pods-Gentera-AppCore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gentera-AppCore/Pods-Gentera-AppCore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gentera-AppCore/Pods-Gentera-AppCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00A3F4352A559CCA03264E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gentera-AppCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0BE1A362EE0EB1300BED0D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,12 +437,14 @@
 /* Begin XCBuildConfiguration section */
 		B0BE1A672EE0EB1500BED0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F080C5AAD23F85EC25707224 /* Pods-Gentera-AppCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Gentera-AppCore/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCore";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.gentera.Gentera-AppCore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -316,12 +471,14 @@
 		};
 		B0BE1A682EE0EB1500BED0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708588C5767923EAF54CE4C9 /* Pods-Gentera-AppCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 59RDL5YEJ8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Gentera-AppCore/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -334,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.nut.Gentera-AppCore";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.gentera.Gentera-AppCore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -469,6 +626,7 @@
 		};
 		B0BE1A6C2EE0EB1500BED0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231C5B054F82D4A2ACA33E50 /* Pods-Gentera-AppCoreTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +649,7 @@
 		};
 		B0BE1A6D2EE0EB1500BED0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE57D4773E672036B8F21A30 /* Pods-Gentera-AppCoreTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +672,7 @@
 		};
 		B0BE1A6F2EE0EB1500BED0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5586B11A587037BF9126757 /* Pods-Gentera-AppCore-Gentera-AppCoreUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -533,6 +693,7 @@
 		};
 		B0BE1A702EE0EB1500BED0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14DC2B3B8F52602869EA8B9 /* Pods-Gentera-AppCore-Gentera-AppCoreUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

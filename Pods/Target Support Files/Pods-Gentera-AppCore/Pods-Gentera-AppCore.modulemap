@@ -1,0 +1,6 @@
+framework module Pods_Gentera_AppCore {
+  umbrella header "Pods-Gentera-AppCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
