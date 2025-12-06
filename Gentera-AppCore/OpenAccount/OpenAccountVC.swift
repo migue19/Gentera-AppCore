@@ -29,7 +29,7 @@ class OpenAccountVC: UIViewController {
         v.translatesAutoresizingMaskIntoConstraints = false
         v.setStep(current: 1, total: 3)
         v.setProgress(0.35, animated: false)
-        v.progressHeight = 8
+        //v.progressHeight = 8
         v.configure(trackColor: UIColor(white: 0.95, alpha: 1), progressColor: .black)
         return v
     }()
@@ -59,6 +59,9 @@ class OpenAccountVC: UIViewController {
     // Fields
     private lazy var phoneField: CustomTextField = {
         let tf = CustomTextField(placeholder: "Ingresa tu teléfono", type: .phone, title: "Teléfono")
+        tf.onEndEditing = { [weak self] value in
+            self?.validateFields()
+        }
         tf.translatesAutoresizingMaskIntoConstraints = false
         return tf
     }()
@@ -66,7 +69,6 @@ class OpenAccountVC: UIViewController {
     private lazy var idField: CustomTextField = {
         let tf = CustomTextField(placeholder: "Ingresa ID o escanea con la cámara", type: .idCard, title: "ID Cliente o Número de Tarjeta")
         tf.onEndEditing = { [weak self] value in
-            print(value)
             self?.validateFields()
         }
         tf.translatesAutoresizingMaskIntoConstraints = false
@@ -75,6 +77,10 @@ class OpenAccountVC: UIViewController {
 
     private lazy var dateField: CustomTextField = {
         let tf = CustomTextField(placeholder: "DD/MM/AAAA", type: .date, title: "Fecha de Nacimiento")
+        tf.onEndEditing = { [weak self] value in
+            print(value)
+            self?.validateFields()
+        }
         tf.translatesAutoresizingMaskIntoConstraints = false
         return tf
     }()
@@ -94,6 +100,7 @@ class OpenAccountVC: UIViewController {
     private lazy var continueButton: CustomButton = {
         let btn = CustomButton(title: "Continuar", style: .primary)
         btn.setDisabled(true)
+        btn.addTarget(self, action: #selector(continueButtonTapped), for: .touchUpInside)
         btn.translatesAutoresizingMaskIntoConstraints = false
         return btn
     }()
@@ -178,10 +185,13 @@ extension OpenAccountVC: GeneralSetupViewProtocol {
             continueButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             continueButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             continueButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
-            continueButton.heightAnchor.constraint(equalToConstant: 48)
+            //continueButton.heightAnchor.constraint(equalToConstant: 48)
         ])
     }
 }
 
 @objc extension OpenAccountVC {
+    func continueButtonTapped() {
+        print("Continue button tapped")
+    }
 }
