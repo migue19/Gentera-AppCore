@@ -65,6 +65,10 @@ class OpenAccountVC: UIViewController {
 
     private lazy var idField: CustomTextField = {
         let tf = CustomTextField(placeholder: "Ingresa ID o escanea con la cámara", type: .idCard, title: "ID Cliente o Número de Tarjeta")
+        tf.onEndEditing = { [weak self] value in
+            print(value)
+            self?.validateFields()
+        }
         tf.translatesAutoresizingMaskIntoConstraints = false
         return tf
     }()
@@ -79,7 +83,9 @@ class OpenAccountVC: UIViewController {
         let v = TermsView()
         v.translatesAutoresizingMaskIntoConstraints = false
         v.setTermsText(mainText: "He leído y acepto los ", linkText: "Términos y Condiciones")
-        v.onToggle = { print("v1 toggled: \($0)") }
+        v.onToggle = { [weak self] ckecked in
+            self?.validateFields()
+        }
         v.onTermsTap = { print("Terms tapped") }
         return v
     }()
@@ -101,9 +107,18 @@ class OpenAccountVC: UIViewController {
         addSubviews()
         setupConstraints()
     }
+    func validateFields() {
+        let isPhoneValid = phoneField.isValid()
+        let isIdValid = idField.isValid()
+        let isDateValid = dateField.isValid()
+        let isTermsAccepted = termsView.isChecked
+        let allValid = isPhoneValid && isIdValid && isDateValid && isTermsAccepted
+        continueButton.setDisabled(!allValid)
+    }
 }
 extension OpenAccountVC: GeneralSetupViewProtocol {
     func setupView() {
+        setupDismissKeyboardGesture()
         view.backgroundColor = .white
     }
     func addSubviews() {
