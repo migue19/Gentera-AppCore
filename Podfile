@@ -9,7 +9,7 @@ target 'Gentera-AppCore' do
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
   pod 'lottie-ios'
-  pod 'Gentera-UI', :path => '/Users/miguelmexicanoherrera/Gentera/Gentera-UI'
+  pod 'Gentera-UI', :path => '../Gentera-UI'
   
   target 'Gentera-AppCoreTests' do
     inherit! :search_paths
