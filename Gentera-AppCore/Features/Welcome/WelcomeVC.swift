@@ -7,7 +7,7 @@
 
 import UIKit
 import Gentera_UI
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     lazy var titleLabel: CustomLabel = {
         let label = CustomLabel(text: "Logo", style: .title)
         label.textColor = .white
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         self.navigationController?.present(openAccountVC, animated: true, completion: nil)
     }
 }
-extension ViewController: GeneralSetupViewProtocol {
+extension WelcomeVC: GeneralSetupViewProtocol {
     func setupView() {
         view.backgroundColor = .gray
     }

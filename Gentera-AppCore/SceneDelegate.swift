@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         // Puedes cambiar este ViewController por el que quieras que sea el inicial
-        let rootVC = ViewController()
+        let rootVC = WelcomeVC()
         
         window.rootViewController = UINavigationController(rootViewController: rootVC)
         window.makeKeyAndVisible()

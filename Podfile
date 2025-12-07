@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '17.0'
 
 target 'Gentera-AppCore' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -8,6 +8,7 @@ target 'Gentera-AppCore' do
   # Pods for Gentera-AppCore
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'lottie-ios'
   pod 'Gentera-UI', :path => '/Users/miguelmexicanoherrera/Gentera/Gentera-UI'
   
   target 'Gentera-AppCoreTests' do
