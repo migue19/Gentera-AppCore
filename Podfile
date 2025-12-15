@@ -8,7 +8,6 @@ target 'Gentera-AppCore' do
   # Pods for Gentera-AppCore
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
-  pod 'lottie-ios'
   pod 'Gentera-UI', :path => '../Gentera-UI'
   
   target 'Gentera-AppCoreTests' do

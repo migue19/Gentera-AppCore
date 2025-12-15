@@ -7,7 +7,7 @@
 import UIKit
 import Gentera_UI
 
-class OpenAccountVC: UIViewController {
+class OpenAccountVC: BaseController {
     // Top controls
     private lazy var backButton: UIButton = {
         let b = UIButton(type: .system)
@@ -193,5 +193,11 @@ extension OpenAccountVC: GeneralSetupViewProtocol {
 @objc extension OpenAccountVC {
     func continueButtonTapped() {
         print("Continue button tapped")
+        showHUD()
+        let seconds = 5.0
+        DispatchQueue.main.asyncAfter(deadline: .now() + seconds) { [weak self] in
+            // Put your code which should be executed with a delay here
+            self?.hideHUD()
+        }
     }
 }

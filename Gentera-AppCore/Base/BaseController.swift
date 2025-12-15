@@ -21,4 +21,3 @@ class BaseController: UIViewController {
         self.dismiss(animated: true)
     }
 }
-
