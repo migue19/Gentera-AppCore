@@ -51,14 +51,8 @@ class OTPViewController: BaseController {
         return l
     }()
 
-    // El componente OTPView proviene de Gentera_UI.
-    // Asunción: `OTPView` es un UIView inicializable con `OTPView()`.
-    // Si el componente expone callbacks (por ejemplo `onComplete`), se pueden enlazar aquí más tarde.
-    private lazy var otpView: UIView = {
-        // Usamos tipo `UIView` en lugar de `OTPView` directamente para evitar problemas si el símbolo
-        // no está disponible en tiempo de compilación como fuente; el framework sí debe exportarlo.
-        // Sin embargo, en la mayoría de los casos `OTPView()` funciona tal cual.
-        let v = (NSClassFromString("OTPView") as? UIView.Type)?.init() ?? OTPView()
+    private lazy var otpView: OTPView = {
+        let v = OTPView()
         v.translatesAutoresizingMaskIntoConstraints = false
         return v
     }()

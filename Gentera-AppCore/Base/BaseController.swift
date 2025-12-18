@@ -7,7 +7,7 @@
 import UIKit
 import Gentera_UI
 class BaseController: UIViewController {
-    private lazy var hud = ProgressHUDView()
+    private lazy var hud = ProgressHUDView(animationName: "Loader")
     override func viewDidLoad() {
         super.viewDidLoad()
     }

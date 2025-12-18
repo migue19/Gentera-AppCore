@@ -188,6 +188,11 @@ extension OpenAccountVC: GeneralSetupViewProtocol {
             //continueButton.heightAnchor.constraint(equalToConstant: 48)
         ])
     }
+    func openOTPScreen() {
+        let otpVC = OTPViewController()
+        otpVC.modalPresentationStyle = .fullScreen
+        self.present(otpVC, animated: true)
+    }
 }
 
 @objc extension OpenAccountVC {
@@ -198,6 +203,7 @@ extension OpenAccountVC: GeneralSetupViewProtocol {
         DispatchQueue.main.asyncAfter(deadline: .now() + seconds) { [weak self] in
             // Put your code which should be executed with a delay here
             self?.hideHUD()
+            self?.openOTPScreen()
         }
     }
 }
